@@ -1,0 +1,27 @@
+user:
+    uniqueEmail: "L'email est déjà utilisé"
+    uniqueUsername: "Le nom d'utilisateur est déjà utilisé"
+    unique2: "Le nom d'utilisateur et l'email sont déjà utilisés"
+    nameMin: "Votre nom doit faire minimum {{ limit }} caractères"
+    nameMax: "Votre nom doit faire maximum {{ limit }} caractères"
+    phoneMin: "Votre numéro de téléphone doit faire {{ limit }} caractères"
+    phoneMax: "Votre numéro de téléphone doit faire {{ limit }} caractères"
+    email: "Votre email ( {{ value }} ) n'est pas valide"
+    passwordError: "Votre mot de passe doit contenir au minimum 4 caractères"
+
+rent:
+    libelleMin: "Le nom de l'objet doit faire minimum {{ limit }} caractères"
+    libelleMax: "Le nom de l'objet doit faire maximum {{ limit }} caractères"
+    zipcodeMin: "Le code postal doit faire {{ limit }} caractères"
+    zipcodeMax: "Le code postal doit faire {{ limit }} caractères"
+    descMax: "La description doit faire maximum {{ limit }} caractères"
+
+rentType:
+    unique: "Ce libellé est déjà utilisé"
+    libelleMin: "Le libelle du type d'objet doit faire minimum {{ limit }} caractères"
+    libelleMax: "Le libelle du type d'objet doit faire maximum {{ limit }} caractères"
+
+rateType:
+    unique: "Ce libellé est déjà utilisé"
+    libelleMin: "Le libelle du type de tarif doit faire minimum {{ limit }} caractères"
+    libelleMax: "Le libelle du type de tarif doit faire maximum {{ limit }} caractères"
